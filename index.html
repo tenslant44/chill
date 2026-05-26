@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title># chill</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #121212;
+            color: #e0e0e0;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+        h1 {
+            color: #ff4757;
+            border-bottom: 2px solid #ff4757;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h2 {
+            color: #2ed573;
+            margin-top: 30px;
+        }
+        .requirements {
+            background-color: #2f3542;
+            padding: 15px;
+            border-left: 5px solid #ffa502;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .card {
+            background: #2f3542;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+            border: 1px solid #444;
+        }
+        .card a {
+            color: #1e90ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .card a:hover {
+            text-decoration: underline;
+        }
+        .disclaimer {
+            font-size: 0.85em;
+            color: #a4b0be;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #444;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #444;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1># chill</h1>
+    <p><strong>Simple fun.</strong> A collection of games, audio, and downloadable software.</p>
+
+    <div class="requirements">
+        <h3>Requirements & Info</h3>
+        <ul>
+            <li>To upload content, you need to create a <a href="https://websim.ai" target="_blank" style="color: #ffa502;">websim.ai</a> account.</li>
+            <li><strong>System Specs:</strong> At least 4 GB RAM (8 GB recommended).</li>
+            <li>If the site goes down, please email: <a href="mailto:tenslant@duck.com" style="color: #ffa502;">tenslant@duck.com</a></li>
+            <li>If you do not trust Websim or want to submit content directly, email me with features or files to add.</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <h2>Available Content</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Games</h3>
+            <p>Browse and play web games.</p>
+            <a href="#">View Games &rarr;</a>
+        </div>
+        <div class="card">
+            <h3>Audio</h3>
+            <p>Listen to curated tracks and sounds.</p>
+            <a href="#">Listen Now &rarr;</a>
+        </div>
+        <div class="card">
+            <h3>Software</h3>
+            <p>Downloadable tools and programs.</p>
+            <a href="#">Downloads &rarr;</a>
+        </div>
+    </div>
+
+    <div class="disclaimer">
+        <p><strong>Disclaimers:</strong> All games are property of their respective owners. All content on this site is a collection of various media. The site host takes no responsibility for individual network policy violations or compliance issues when using this platform.</p>
+    </div>
+</div>
+
+</body>
+</html>
